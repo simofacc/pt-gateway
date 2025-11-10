@@ -126,6 +126,29 @@ This repository contains comprehensive documents that cover all aspects of SRIJ 
 
 ---
 
+### 7. [CLOUD_DEPLOYMENT_OPTIONS.md](./CLOUD_DEPLOYMENT_OPTIONS.md) ⭐ NEW
+**Can you use AWS, Google Cloud, or Azure? What about Portuguese cloud providers?**
+
+- **Short answer**: ❌ AWS/Google/Azure have no regions in Portugal ✅ Portuguese cloud providers work!
+- Evaluation of major cloud providers (AWS, Google Cloud, Azure availability in Portugal)
+- Portuguese local cloud providers (Out.Cloud, Vawlt, Flipkick)
+- Cloud vs. colocation cost comparison
+- Hybrid architectures (AWS gaming platform + Portugal ERI)
+- SRIJ compliance for cloud-hosted VMs
+- Implementation guide for Portuguese cloud deployment
+- Decision matrix: when to use cloud vs. colocation
+
+**Key findings**:
+- AWS/Google Cloud/Azure have NO compute regions in Portugal as of 2025
+- Portuguese cloud providers like **Out.Cloud** and **Vawlt** offer SRIJ-compliant hosting
+- Cloud option: €12k-€30k/year (lower initial cost, 80% control)
+- Colocation option: €130k year 1, €57k/year recurring (100% control)
+- **Must verify with SRIJ** if they accept cloud VMs vs. physical servers
+
+**Use this** to decide between cloud (simple, lower cost) vs. colocation (control, recommended).
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### For First-Time Readers
