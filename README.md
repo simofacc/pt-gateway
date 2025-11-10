@@ -13,7 +13,9 @@ This repository contains comprehensive documentation for building and deploying 
 
 ## 📚 Documentation Structure
 
-This repository contains four comprehensive documents that cover all aspects of SRIJ ERI gateway implementation:
+This repository contains comprehensive documents that cover all aspects of SRIJ ERI gateway implementation:
+
+### Core Documentation
 
 ### 1. [SRIJ_ERI_REQUIREMENTS.md](./SRIJ_ERI_REQUIREMENTS.md)
 **Complete regulatory and technical requirements**
@@ -86,6 +88,41 @@ This repository contains four comprehensive documents that cover all aspects of 
 - Phase 12: Ongoing Operations (Continuous)
 
 **Use this** as your project management guide and progress tracker.
+
+---
+
+### VPN & Network Control Documentation
+
+### 5. [VPN_TUNNEL_ARCHITECTURE.md](./VPN_TUNNEL_ARCHITECTURE.md) ⭐ NEW
+**Simplified architecture with full VPN control (no hosting provider dependency)**
+
+- **Why this matters**: SRIJ connects via site-to-site IPsec VPN tunnel with Phase 1/Phase 2 parameters
+- Deploy your own VPN/firewall appliance (pfSense recommended)
+- Complete control over VPN configuration without involving hosting provider
+- Detailed IPsec configuration guide
+- Hardware recommendations (Netgate pfSense 6100 ~€2,500)
+- Network architecture with VPN gateway
+- Firewall rules for SRIJ access
+- Remote management setup (OpenVPN for admin access)
+- Monitoring and troubleshooting
+- Cost: €2,750 one-time, minimal recurring
+
+**Use this** if you want full control over SRIJ VPN connectivity without constant hosting provider involvement.
+
+---
+
+### 6. [PFSENSE_QUICK_REFERENCE.md](./PFSENSE_QUICK_REFERENCE.md) ⭐ NEW
+**Quick reference guide for pfSense configuration**
+
+- Initial setup steps
+- SRIJ IPsec VPN configuration (copy-paste ready)
+- Firewall rules for SRIJ traffic
+- Verification and testing procedures
+- Troubleshooting common issues
+- Useful commands and shell access
+- Configuration backup procedures
+
+**Use this** as a quick reference when configuring your pfSense appliance for SRIJ.
 
 ---
 
